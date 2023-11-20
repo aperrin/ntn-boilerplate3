@@ -55,6 +55,9 @@ export default {
           '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap">'
       }
     ],
+    script: [
+      {src: "https://identity.netlify.com/v1/netlify-identity-widget.js", defer: True}
+      ]
     __dangerouslyDisableSanitizers: ['noscript']
   },
   /*
