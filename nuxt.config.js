@@ -56,7 +56,7 @@ export default {
       }
     ],
     script: [
-      {src: "https://identity.netlify.com/v1/netlify-identity-widget.js", defer: True}
+      {src: "https://identity.netlify.com/v1/netlify-identity-widget.js", defer: true}
       ],
     __dangerouslyDisableSanitizers: ['noscript']
   },
